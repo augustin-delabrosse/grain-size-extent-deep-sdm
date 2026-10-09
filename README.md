@@ -6,7 +6,7 @@ This repository contains the code, example notebooks, trained models and Grad-CA
 
 
 
-> \*\*Revisiting the grain-size concept in deep species distribution models: effects of spatial resolution and extent on emerging aquatic insects\*\*
+> **Revisiting the grain-size concept in deep species distribution models: effects of spatial resolution and extent on emerging aquatic insects**
 
 
 
@@ -63,11 +63,9 @@ git clone https://github.com/augustin-delabrosse/grain-size-extent-deep-sdm.git
 cd grain-size-extent-deep-sdm
 
 
-
 conda create -n deep-sdm python=3.10
 
 conda activate deep-sdm
-
 
 
 pip install -r requirements.txt
