@@ -6,7 +6,7 @@ This repository contains the code, example notebooks, trained models and Grad-CA
 
 
 
-> **Revisiting the grain-size concept in deep species distribution models: effects of spatial resolution and extent on emerging aquatic insects**
+**Revisiting the grain-size concept in deep species distribution models: effects of spatial resolution and extent on emerging aquatic insects**
 
 
 
