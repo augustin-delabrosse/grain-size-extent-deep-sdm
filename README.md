@@ -26,9 +26,9 @@ The study investigates how spatial resolution, image-window (or image patch) ext
 ├── gradcam.py                        # Grad-CAM implementation
 ├── requirements.txt                  # Python dependencies
 ├── emissions.csv                     # Computational-emissions record
-├── \_\_init\_\_.py
+├── __init__.py
 │
-├── \*.ipynb                           # Example analysis notebooks
+├── *.ipynb                           # Example analysis notebooks
 ├── gradcams/                         # Example Grad-CAM heatmaps and RGB images
 └── models/                           # Trained model weights
     ├── pleco\_dronems2m5.h5
