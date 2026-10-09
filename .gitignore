@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+.env
+
+# R
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# R package/build files
+.Rcheck/
+*.tar.gz
+
+# Large remote-sensing files
+*.tif
+*.tiff
+*.jp2
+*.las
+*.laz
+*.img
+*.h5
+*.hdf5
+*.nc
+
+# Secrets and local configuration
+*.secret
+*.pem
+*.key
