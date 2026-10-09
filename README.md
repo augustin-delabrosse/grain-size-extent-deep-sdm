@@ -1,4 +1,4 @@
-\# Grain Size and Extent in Deep Species Distribution Models
+# Grain Size and Extent in Deep Species Distribution Models
 
 
 
@@ -14,7 +14,7 @@ The study investigates how spatial resolution, image-window (or image patch) ext
 
 
 
-\## Repository Structure
+## Repository Structure
 
 
 
@@ -23,30 +23,18 @@ The study investigates how spatial resolution, image-window (or image patch) ext
 .
 
 ├── config.py                         # Configuration and data paths
-
 ├── models.py                         # Deep SDM architectures
-
 ├── preprocessing.py                  # Data preprocessing utilities
-
 ├── gradcam.py                        # Grad-CAM implementation
-
 ├── requirements.txt                  # Python dependencies
-
 ├── emissions.csv                     # Computational-emissions record
-
 ├── \_\_init\_\_.py
-
 │
-
 ├── \*.ipynb                           # Example analysis notebooks
-
 ├── gradcams/                         # Example Grad-CAM heatmaps and RGB images
-
 └── models/                           # Trained model weights
-
-&#x20;   ├── pleco\_dronems2m5.h5
-
-&#x20;   └── pleco\_satellite10m.h5
+    ├── pleco\_dronems2m5.h5
+    └── pleco\_satellite10m.h5
 
 ```
 
@@ -56,11 +44,11 @@ The example notebooks cover different taxa, window extents and remote-sensing da
 
 
 
-\## Getting Started
+## Getting Started
 
 
 
-\### Installation
+### Installation
 
 
 
@@ -92,7 +80,7 @@ If required, update the data paths and other settings in `config.py` before runn
 
 
 
-\### Notebooks
+### Notebooks
 
 
 
@@ -109,28 +97,11 @@ The repository contains example notebooks for:
 \- Grad-CAM visualisation and comparison.
 
 
-
-Launch Jupyter with:
-
-
-
-```bash
-
-jupyter notebook
-
-```
-
-
-
-Then open one of the notebooks whose name begins with `example\_`.
-
-
-
 The notebooks are provided as examples of the analysis workflow. Reproducing the complete study requires access to the full remote-sensing datasets and occurrence data described below.
 
 
 
-\## Dataset
+## Dataset
 
 
 
@@ -156,7 +127,7 @@ Complete datasets: loremispum # Zenodo
 
 
 
-\## Results
+## Results
 
 
 
