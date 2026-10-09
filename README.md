@@ -80,10 +80,10 @@ The repository contains example notebooks for:
 
 
 
-\- Plecoptera and Trichoptera predictions;
-\- different window extents: 40 m, 70 m and 100 m;
-\- multispectral, LiDAR and combined data;
-\- Grad-CAM visualisation and comparison.
+- Plecoptera and Trichoptera predictions;
+- different window extents: 40 m, 70 m and 100 m;
+- multispectral, LiDAR and combined data;
+- Grad-CAM visualisation and comparison.
 
 
 The notebooks are provided as examples of the analysis workflow. Reproducing the complete study requires access to the full remote-sensing datasets and occurrence data described below.
@@ -98,12 +98,12 @@ The study uses:
 
 
 
-\- drone multispectral imagery at 31 cm and 2.5 m spatial resolution;
-\- drone LiDAR data at 31 cm spatial resolution;
-\- IGN LiDAR data at 50 cm spatial resolution;
-\- Sentinel-2 multispectral imagery at 10 m spatial resolution;
-\- super-resolution multispectral imagery at 2.5 m spatial resolution;
-\- Plecoptera and Trichoptera occurrence data collected using sticky traps.
+- drone multispectral imagery at 31 cm and 2.5 m spatial resolution;
+- drone LiDAR data at 31 cm spatial resolution;
+- IGN LiDAR data at 50 cm spatial resolution;
+- Sentinel-2 multispectral imagery at 10 m spatial resolution;
+- super-resolution multispectral imagery at 2.5 m spatial resolution;
+- Plecoptera and Trichoptera occurrence data collected using sticky traps.
 
 
 > Complete datasets: loremispum # Zenodo
@@ -120,17 +120,10 @@ The experiments show that both spatial resolution and image-window extent substa
 
 The main findings are:
 
-
-
-\- The best configuration for Plecoptera used 2.5 m multispectral data with a 40 m window extent, achieving an AUC of approximately 0.87.
-
-\- The best configuration for Trichoptera used 2.5 m multispectral data combined with 50 cm LiDAR data and a 100 m window extent, achieving an AUC of approximately 0.79.
-
-\- Differences in spatial resolution produced AUC differences of up to approximately 0.26.
-
-\- Differences in window extent produced AUC differences of up to approximately 0.16.
-
-\- LiDAR and multispectral data showed different spatial patterns in Grad-CAM explanations.
-
-\- Systematically testing grain size and spatial extent can provide both predictive and ecological insights.
+- The best configuration for Plecoptera used 2.5 m multispectral data with a 40 m window extent, achieving an AUC of approximately 0.87.
+- The best configuration for Trichoptera used 2.5 m multispectral data combined with 50 cm LiDAR data and a 100 m window extent, achieving an AUC of approximately 0.79.
+- Differences in spatial resolution produced AUC differences of up to approximately 0.26.
+- Differences in window extent produced AUC differences of up to approximately 0.16.
+- LiDAR and multispectral data showed different spatial patterns in Grad-CAM explanations.
+- Systematically testing grain size and spatial extent can provide both predictive and ecological insights.
 
