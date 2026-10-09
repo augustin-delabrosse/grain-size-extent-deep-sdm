@@ -59,8 +59,8 @@ Conda is recommended for creating an isolated environment.
 git clone https://github.com/augustin-delabrosse/grain-size-extent-deep-sdm.git
 cd grain-size-extent-deep-sdm
 
-conda create -n deep-sdm python=3.10
-conda activate deep-sdm
+conda create -n deepsdm_grain_extent python=3.10
+conda activate deepsdm_grain_extent
 
 pip install -r requirements.txt
 
