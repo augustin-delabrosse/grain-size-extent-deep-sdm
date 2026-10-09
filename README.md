@@ -20,13 +20,15 @@ The study investigates how spatial resolution, image-window (or image patch) ext
 
 ```text
 
+├── __init__.py
 ├── config.py                         # Configuration and data paths
 ├── models.py                         # Deep SDM architectures
 ├── preprocessing.py                  # Data preprocessing utilities
 ├── gradcam.py                        # Grad-CAM implementation
-├── requirements.txt                  # Python dependencies
 ├── emissions.csv                     # Computational-emissions record
-├── __init__.py
+├── README.md                  
+├── environment.yml                    
+├── requirements.txt                   
 │
 ├── *.ipynb                           # Example analysis notebooks
 ├── gradcams/                         # Example Grad-CAM heatmaps and RGB images
