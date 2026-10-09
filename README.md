@@ -20,8 +20,6 @@ The study investigates how spatial resolution, image-window (or image patch) ext
 
 ```text
 
-.
-
 ├── config.py                         # Configuration and data paths
 ├── models.py                         # Deep SDM architectures
 ├── preprocessing.py                  # Data preprocessing utilities
@@ -59,14 +57,10 @@ Conda is recommended for creating an isolated environment.
 ```bash
 
 git clone https://github.com/augustin-delabrosse/grain-size-extent-deep-sdm.git
-
 cd grain-size-extent-deep-sdm
 
-
 conda create -n deep-sdm python=3.10
-
 conda activate deep-sdm
-
 
 pip install -r requirements.txt
 
@@ -87,11 +81,8 @@ The repository contains example notebooks for:
 
 
 \- Plecoptera and Trichoptera predictions;
-
 \- different window extents: 40 m, 70 m and 100 m;
-
 \- multispectral, LiDAR and combined data;
-
 \- Grad-CAM visualisation and comparison.
 
 
@@ -108,20 +99,14 @@ The study uses:
 
 
 \- drone multispectral imagery at 31 cm and 2.5 m spatial resolution;
-
 \- drone LiDAR data at 31 cm spatial resolution;
-
 \- IGN LiDAR data at 50 cm spatial resolution;
-
 \- Sentinel-2 multispectral imagery at 10 m spatial resolution;
-
 \- super-resolution multispectral imagery at 2.5 m spatial resolution;
-
 \- Plecoptera and Trichoptera occurrence data collected using sticky traps.
 
 
-
-Complete datasets: loremispum # Zenodo
+> Complete datasets: loremispum # Zenodo
 
 
 
