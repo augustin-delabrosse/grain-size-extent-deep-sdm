@@ -59,11 +59,18 @@ Conda is recommended for creating an isolated environment.
 git clone https://github.com/augustin-delabrosse/grain-size-extent-deep-sdm.git
 cd grain-size-extent-deep-sdm
 
-conda create -n deepsdm_grain_extent python=3.11 gdal=3.6.2 -c conda-forge -y
+conda env create -f environment.yml
 conda activate deepsdm_grain_extent
 
-pip install -r requirements.txt
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
+#### Notes
 
+GDAL is installed through Conda-forge and should not be installed using:
+
+```bash
+pip install gdal
 ```
 
 
